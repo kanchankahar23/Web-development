@@ -29,7 +29,7 @@ console.log(message);
 console.log(info);
 
 
-const instaname = "sachinsen07";
+const instaname = "vhg";
 // const newstring = instaname.charAt(0);
 
 // sac =>0th index to 2nd index
