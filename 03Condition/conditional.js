@@ -62,12 +62,3 @@ let n = 1;
     console.log("invalid  data")
         break;
   }
-// Loops:
-
-// for, while, do...while
-
-// for...of vs for...in
-
-// break, continue
-
-// Nested loops
