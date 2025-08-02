@@ -37,6 +37,7 @@ else if(c > a && c > b){
 else{
     console.log("invalid")
 }
+
 // switch statement
  
 // Q.4 Q4. Write a calculator using switch (add, subtract, multiply, divide).
