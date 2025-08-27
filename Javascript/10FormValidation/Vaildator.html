@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email & Password Validator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      width: 350px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: border-color 0.3s;
+    }
+
+    input:focus {
+      border-color: #4A90E2;
+    }
+
+    .error {
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+      display: none;
+ 
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #4A90E2;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #357ABD;
+    }
+    #result-msg{
+        /* display: none; */
+        color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Login</h2>
+    <form autocomplete="on" id="loginForm">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter your email">
+        <div class="error" id="emailError">Invalid email address</div>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <div class="error" id="passwordError">
+          Password must be 8+ chars, include uppercase, lowercase, number, special char
+        </div>
+      </div>
+
+      <button type="submit">Validate</button>
+    </form>
+    <div  id="result-msg">
+    </div>
+  </div>
+
+</body>
+<script src="Validator.js"></script>
+</html>

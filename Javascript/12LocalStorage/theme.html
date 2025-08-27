@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Theme Preference</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #222222;
+    }
+
+    [data-theme="dark"] {
+      --bg: #222222;
+      --text: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .toggle-btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #4f46e5;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button id="theme-toggle" class="toggle-btn">Toggle Theme</button>
+</body>
+<script src="theme.js"></script>
+</html>

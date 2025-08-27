@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        /* justify-content: center; */
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10rem;
+    }
+
+    #forms {
+        display: flex;
+        /* justify-content: center; */
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px !important;
+
+    }
+
+    .card {
+        max-width: 300px;
+        padding: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid black;
+        display: inline-block;
+    }
+
+    .profile {
+        width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+     overflow: hidden;
+    }
+    .profile img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+        
+    }
+</style>
+
+<body>
+    <div id="forms">
+        <form action="">
+            <input type="text" placeholder="image">
+            <input type="text" placeholder="enter your name:">
+            <input type="text" placeholder="enter your occupation:">
+            <input type="text" placeholder="about">
+            
+        
+            <button>submit</button>
+        </form>
+    </div>
+   
+
+</body>
+<script src="formvalid.js"></script>
+
+</html>
