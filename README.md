@@ -21,7 +21,7 @@ To explore or contribute to this repository:
 
 1. Clone the repository:
 
-```bash
+
 git clone https://github.com/kanchankahar23/Web-development.git
 cd Web-development
 Navigate through the project directories to explore individual projects.
@@ -32,13 +32,17 @@ bash
 Copy code
 npm install
 npm start
-🛠️ Technologies Used
+
+---
+##🛠️ Technologies Used
 Frontend: HTML5, CSS3, JavaScript, React
 
 Styling: CSS, Tailwind CSS
 
 Version Control: Git & GitHub
 
+
+----
 📂 Folder Structure
 bash
 Copy code
@@ -47,6 +51,8 @@ Web-development/
 │── JavaScript/      # DOM & logic exercises
 │── React/           # React mini-projects
 │── README.md        # Project overview
+
+---
 🔄 Future Enhancements
 Integrate APIs for dynamic content (weather, news, etc.)
 
@@ -57,7 +63,7 @@ Add unit and integration tests using Jest and React Testing Library
 Deploy projects on GitHub Pages, Netlify, or Vercel
 
 Enhance UI/UX and responsiveness
-
+---
 👩‍💻 Author
 Kanchan Kahar
 📧 kaharkanchan884@gmail.com
@@ -66,5 +72,4 @@ Kanchan Kahar
 
 ✨ This repository represents my hands-on learning in web development and serves as a portfolio for placements and skill demonstration.
 
-yaml
-Copy code
+
