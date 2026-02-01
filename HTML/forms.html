@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <label for="fname">First name</label>
+        <input type="text" name="" accept="charset" autocapitalize="on" placeholder="Enter your name " id="">
+        <button>click</button>
+    </form>
+    <!-- utf-8  => unicode Transformation Format-8 bit -->
+    <!-- Autocapitalize = on (suggestion) -->
+
+    <!-- type of forms -->
+    <!-- 1.text input  -->
+    <input type="text" name="" id="">
+    <input type="email" name="" id="">
+
+    <!-- 2.Select input -->
+    <select name="editors" id="" multiple>
+        <option value="vscode">vscode</option>
+        <option value="subline">subline</option>
+    </select>
+
+
+    <!-- type = "date" -->
+    <label for="start">Start date:</label>
+    <input type="date" name="" id="start" name="trip-start" value="2018-08-22" min="2010-01-01" max="2018-12-31" />
+
+    <!-- type = "radio" -->
+    <!-- used when only ONE option must be selected from a group -->
+    <label>Select a maintenance drone:</label>
+    <div>
+        <input type="radio" name="drone" id="huey" value="huey" checked>
+        <label for="huey">Huey</label>
+    </div>
+    <div>
+        <input type="radio" name="drone" id="huey" value="huey">
+        <label for="Dewey">Dewey</label>
+    </div>
+    <div>
+        <input type="radio" name="drone" id="huey" value="huey">
+        <label for="louie">louie</label>
+    </div>
+
+    <!-- range -->
+    <p>Audio setting:</p>
+    <div>
+        <input type="range" name="volume" id="volume" min="0" max="11">
+        <label for="volume">Volume</label>
+
+        <input type="range" name="cowbell" min="0" max="100" value="90" step="10" id="">
+        <label for="cowbell">cowbell</label>
+    </div>
+
+    <!-- Checkboxes -->
+    <!-- Used when multiple options can be selected -->
+    <label>Choose your monster's features: </label>
+    <div>
+        <input type="checkbox" name="scales" id="scales">
+        <label for="scales">scales</label>
+    </div>
+    <div>
+        <input type="checkbox" name="horns" id="horns">
+        <label for="horns">horns</label>
+    </div>
+
+</body>
+
+</html>
