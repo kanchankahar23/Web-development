@@ -6,13 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS basic </title>
 </head>
+<style>
+    body {
+        background-color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        background-color: rgb(197, 195, 195);
+        border-radius: 10px;
+        padding: 30px;
+        width: 300px;
+    }
+
+    h1 {
+        color: rgb(54, 54, 193);
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+button{
+    padding: 10px 12px;
+    background-color: rgb(50, 50, 193);
+    border-radius: 10px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(9, 9, 74);
+}
+</style>
 
 <body>
     <div class="card">
         <h1>login</h1>
         <form>
             <input type="email" placeholder="Enter the email">
-            <input type="password"placeholder="Enter the password" name="" id="">
+            <input type="password" placeholder="Enter the password" name="" id="">
+            <button>Login</button>
         </form>
     </div>
 </body>
