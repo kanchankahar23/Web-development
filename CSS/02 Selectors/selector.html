@@ -26,18 +26,29 @@
         color: red;
 
     }
+
     /* ID selector  */
-    #header{
+    #header {
         background-color: antiquewhite;
     }
+
     /* attribute selector */
-    input[type = "text"]{
+    input[type="text"] {
         border: 2px solid blue;
 
     }
+
     /* Descendant selector */
-    article p{
-        
+    article p {
+        font-style: italic;
+    }
+    /* pseudo-element selector */
+    p::first-letter{
+        color: rgb(15, 9, 2);
+    }
+    /* grouping selector */
+    h1,h2{
+        color: blueviolet;
     }
 </style>
 
@@ -45,6 +56,13 @@
     <div>
         <h1>Lorem, ipsum dolor.</h1>
 
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto dolores numquam voluptatibus
+                suscipit. Mollitia eos error minima enim itaque similique. Dolores, reprehenderit cupiditate. Saepe
+                quidem voluptatum ut distinctio eligendi qui.</p>
+        </div>
+        <h2 class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <h3 id="header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
     </div>
 </body>
 
