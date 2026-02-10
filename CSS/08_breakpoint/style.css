@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(2, 2, 42);
+    color: white;
+}
+
+.Responsive-div {
+    margin-top: 250px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: rgb(119, 30, 30);
+    font-size: 20px;
+    height: 20px;
+}
+@media (max-width:600px) {
+.Responsive-div{
+    background-color: red;
+}
+}
+@media (min-width:601px) and (max-width:1024px) {
+    .Responsive-div{
+        background-color: blue;
+    }
+}
