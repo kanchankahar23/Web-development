@@ -1,0 +1,92 @@
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+
+   body {
+       height: 100vh;
+       background-color: black;
+   }
+
+   .navbar {
+       height: 80px;
+       background-color: black;
+       color: white;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+
+   }
+
+   .logo {
+       height: 50px;
+       width: 70px;
+       overflow: hidden;
+   }
+
+   .logo .logo-img {
+       height: 100%;
+       object-fit: cover;
+
+   }
+
+   .page-link ul {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 60px;
+       list-style: none;
+
+   }
+
+   .page-link ul li a {
+       text-decoration: none;
+       color: white;
+       font-size: 17px;
+   }
+
+   .page-link ul li a:hover {
+       color: #cb8d1a;
+   }
+
+   .navbar button {
+       padding: 8px 20px;
+       background-color: #cb8d1a;
+       color: white;
+       border-radius: 10px;
+       border: 0;
+       outline: 0;
+       font-weight: 500;
+       font-size: 16px;
+   }
+
+   .navbar button:hover {
+       background-color: #fbc259;
+   }
+
+   #carouselExampleIndicators {
+       height: 70vh;
+   }
+
+   .carousel-inner {
+       height: 70vh;
+       overflow: hidden;
+   }
+
+   .carousel-item active img {
+       object-fit: cover;
+       width: 100px;
+   }
+
+   .cards {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 30px;
+   }
+   .card-section h1{
+    text-align: center;
+    margin: 50px;
+    color: white;
+   }
