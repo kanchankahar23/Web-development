@@ -17,6 +17,17 @@
        justify-content: space-around;
        align-items: center;
 
+
+   }
+
+   .page-link {
+       display: none;
+   }
+
+   @media (min-width: 768px) {
+       .page-link {
+           display: block;
+       }
    }
 
    .logo {
@@ -84,9 +95,105 @@
        justify-content: center;
        align-items: center;
        gap: 30px;
+       flex-direction: column;
    }
-   .card-section h1{
-    text-align: center;
-    margin: 50px;
-    color: white;
+
+   .card-section h1 {
+       text-align: center;
+       margin: 50px;
+       color: white;
+   }
+
+   @media (min-width: 768px) {
+       .cards {
+           flex-direction: row;
+       }
+   }
+
+   .footer-up {
+       color: #755823;
+       margin-top: 80px;
+       display: flex;
+       flex-direction: column;
+       /* justify-content: space-around; */
+   }
+
+
+   .footer-left {
+       height: 30vh;
+       font-size: 18px;
+       display: flex;
+       gap: 10px;
+       flex-direction: column;
+
+   }
+
+   .footer-left img {
+       width: 70px;
+   }
+
+   .footer-right {
+       display: flex;
+       font-size: 18px;
+       list-style: none;
+       flex-direction: column;
+       gap: 80px;
+
+   }
+
+   .footer-right li {
+       margin-top: 10px;
+   }
+
+   .footer-right li:hover {
+       color: #fff;
+       transform: scale(0.8);
+       /* transition: 0.3s ease-in-out; */
+   }
+
+   .footer-bottom {
+       display: flex;
+       color: #755823;
+       /* justify-content: space-around; */
+       flex-direction: column;
+   }
+
+   .footer-bottom-right {
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+   }
+
+   @media (min-width: 768px) {
+       .footer-up {
+           flex-direction: row;
+           justify-content: space-around;
+
+       }
+
+       .footer-left img {
+           width: 160px;
+       }
+
+       .footer-bottom-right {
+           flex-direction: row;
+             justify-content: space-around;
+
+       }
+
+       .footer-right {
+           flex-direction: row;
+             justify-content: space-around;
+
+       }
+
+       .footer-left {
+           flex-direction: row;
+       }
+
+       .footer-bottom {
+           flex-direction: row;
+             justify-content: space-around;
+
+       }
    }
