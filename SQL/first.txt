@@ -11,3 +11,15 @@ Term(Jargons)
 3.Table -> Rows and Columns
 4.Record -> a single Row
 5.RDBMS ->Relational Database Management System
+
+
+Relational Databases
+
+there are two part in it 
+1.My SQl 
+2.Postgresql
+3.SQl Lite
+
+Imagine Excel Sheets
+Tables
+Connections Between Tables
