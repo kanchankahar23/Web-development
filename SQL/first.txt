@@ -1,0 +1,13 @@
+SQl = Structural Query Language
+1.for Web dev
+2.for Database Admins
+3.for data analyst
+
+
+Term(Jargons)
+1.Datum -> Data
+2.Database -> Collection of Data
+(schema is structure of database)
+3.Table -> Rows and Columns
+4.Record -> a single Row
+5.RDBMS ->Relational Database Management System
