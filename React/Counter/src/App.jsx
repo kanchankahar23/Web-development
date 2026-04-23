@@ -18,7 +18,7 @@ function App() {
           >increment</button>
           <button onClick={() => setCount(0)}>Reset</button>
           <button onClick={() => {
-            if (count < 0) {
+            if (count > 0) {
               setCount(prev => prev - 1)
             }
 
