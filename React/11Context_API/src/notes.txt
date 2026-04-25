@@ -1,0 +1,14 @@
+Step of how to make context api
+
+
+1.First build a folder context and create s file named UserContext and create custom hook
+2.then create a file UserContextProvider 
+const UserContextProvider = ({children}) => {
+    const [user, setUser] = React.useState(null)
+    return(
+        <UserContext.Provider value={{user, setUser}}>
+        {children}
+        </UserContext.Provider>
+    )
+}
+
