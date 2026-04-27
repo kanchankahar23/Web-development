@@ -23,10 +23,24 @@ function App() {
     if (counter > 0) {
       setCounter(counter - 1)                                  //for remove
     }
-    else{
+    else {
       console.log("error")
     }
 
+  }
+
+  function App() {
+    let [count, setCount] = useState(0);
+    const addvalue = () => {
+      if (count < 20) {
+        setCount(count + 1)
+      }
+    }
+    const decrese = () => {
+      if (count > 20) {
+        setCount(count - 1)
+      }
+    }
   }
 
   return (
