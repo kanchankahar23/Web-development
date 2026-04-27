@@ -5,7 +5,7 @@ const App = () => {
   useEffect(() => {
     fetch("https://api.github.com/users/kanchankahar23")
       .then(res => res.json())
-      .then(data =>{
+      .then(data => {
         console.log(data);
         setChange(data)
       })
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div>
       <h1>User name : {change.login}</h1>
-    <img src={change.avatar_url} alt="" />
+      <img src={change.avatar_url} alt="" />
     </div>
   )
 }
