@@ -43,6 +43,20 @@ function App() {
     }
   }
 
+  function App() {
+    const [count, setCount] = useState(0);
+    const addvalue = () => {
+      if (count < 10) {
+        setCount(count + 1);
+      }
+    }
+    const decrese = () => {
+      if (count > 10) {
+        setCount(count - 1)
+      }
+    }
+  }
+
   return (
     <>
       <h1>chai aur react</h1>
