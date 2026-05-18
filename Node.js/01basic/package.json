@@ -1,0 +1,13 @@
+{
+  "name": "01basic",
+  "version": "1.0.0",
+  "description": "learning backend",
+  "license": "ISC",
+  "author": "kanchan kahar",
+  "type": "commonjs",
+  "main": "Hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node Hello.js"
+  }
+}
